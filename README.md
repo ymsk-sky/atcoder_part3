@@ -13,9 +13,15 @@
 # アルゴリズム
 ## 二分探索
 [競プロ典型90 - 001. 羊羹の切り分け](./typical90/001_YokanParty.py)
+[競プロ典型90 - 010. テストの点数](./typical90/010_ScoreSumQueries.py)
 
 ## DP(動的計画法)
+[競プロ典型90 - 008. AtCounter](./typical90/008_AtCounter.py)
 
 ## DFS(深さ優先探索)
 
 ## BFS(幅優先探索)
+
+## 木構造
+### 木の直径
+[競プロ典型90 - 003. 最長道路](./typical90/003_LongestCircularRoad.py)
