@@ -21,7 +21,11 @@
 ## DFS(深さ優先探索)
 
 ## BFS(幅優先探索)
+[競プロ典型90 - 013. 寄り道最短経路](./typical90/013_Passing.py)
 
 ## 木構造
 ### 木の直径
 [競プロ典型90 - 003. 最長道路](./typical90/003_LongestCircularRoad.py)
+
+## UnionFind
+[競プロ典型90 - 012. 色塗り](./typical90/012_RedPainting.py)
