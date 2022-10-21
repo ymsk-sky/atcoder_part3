@@ -41,6 +41,9 @@
 ### 木の直径
 [競プロ典型90 - 003. 最長道路](./typical90/003_LongestCircularRoad.py)
 
+### 木DP
+[競プロ典型90 - 039. 木の距離](./typical90/039_TreeDistance.py)
+
 ## UnionFind
 [競プロ典型90 - 012. 色塗り](./typical90/012_RedPainting.py)
 
