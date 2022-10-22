@@ -15,6 +15,9 @@
 [競プロ典型90 - 001. 羊羹の切り分け](./typical90/001_YokanParty.py)
 [競プロ典型90 - 010. テストの点数](./typical90/010_ScoreSumQueries.py)
 
+## 半分全列挙
+[競プロ典型90 - 051. 典型的な店](./typical90/051_TypicalShop.py)
+
 ## いもす法
 *二次元いもす*
 
@@ -28,6 +31,8 @@
 
 ## DP(動的計画法)
 [競プロ典型90 - 008. AtCounter](./typical90/008_AtCounter.py)
+
+[競プロ典型90 - 056. 福袋](./typical90/056_LuckyBag.py)
 
 ## DFS(深さ優先探索)
 
