@@ -3,8 +3,8 @@ cl = list(map(int, input().split()))
 q = int(input())
 m = -(-n//2)  # 奇数番目の個数
 # 最小値(閾値を考慮した実際の値)
-min_all = 0
-min_odd = 0
+min_all = min(cl)
+min_odd = min([cl[i] for i in range(n) if i%2 == 0])
 # 閾値
 th_all = 0
 th_odd = 0
