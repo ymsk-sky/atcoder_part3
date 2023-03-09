@@ -43,20 +43,18 @@ for i in range(n + m):
             d *= 10
         dist[i][j] = dist[j][i] = d
 
-edges = []
-for i in range(n):
-    for j in range(i + 1, n):
-        edges.append((dist[i][j], i, j))
 ans = float("inf")
 for s in range(1<<m):
     # s集合の小さい塔を含ませる
-    uf = UnionFind(n + m)
-    el = edges.copy()
-    for k in range(m):
-        if (s>>k) & 1:
-            for i in range(n):
-                el.append((dist[i][n + k], i, n + k))
+    kl = [n + k for k in range(m) if (s>>k)&1] + list(range(n))
+    el = []
+    for i in kl:
+        for j in kl:
+            if i == j:
+                continue
+            el.append((dist[i][j], i, j))
     el.sort()
+    uf = UnionFind(n + m)
     tmp = 0
     for cost, u, v in el:
         if uf.same(u, v):
